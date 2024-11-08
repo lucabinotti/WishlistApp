@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MoviesFragment">
+    tools:context=".ContentFragment">
 
-    <!-- ListView for displaying items in the MoviesFragment -->
+    <!-- ListView for displaying items in the ContentFragment -->
     <ListView
-        android:id="@+id/movieListView"
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@android:color/darker_gray"
